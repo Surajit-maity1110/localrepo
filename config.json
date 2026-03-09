@@ -1,0 +1,21 @@
+{
+  "test_size": 0.2,
+  "random_state": 42,
+  "model_type": "RandomForest",
+  "n_estimators": 100,
+  "max_depth": 10,
+  "min_samples_split": 5,
+  "min_samples_leaf": 2,
+  "learning_rate": 0.01,
+  "batch_size": 32,
+  "epochs": 10,
+  "validation_split": 0.1,
+  "early_stopping_patience": 3,
+  "model_save_dir": "models",
+  "log_dir": "logs",
+  "data_dir": "data",
+  "enable_monitoring": true,
+  "enable_versioning": true,
+  "enable_logging": true,
+  "log_level": "INFO"
+}
